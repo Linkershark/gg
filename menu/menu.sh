@@ -104,7 +104,7 @@ fi
 
 clear 
 echo -e "\e[33m ┌─────────────────────────────────────────────────┐"
-echo -e "${cyan} │                 LINKERSHARK                    │"
+echo -e "${cyan} │                 LINKERSHARK                     │"
 echo -e "${cyan} └─────────────────────────────────────────────────┘"
 echo -e "\e[33m | OS            \e[0m:  "`hostnamectl | grep "Operating System" | cut -d ' ' -f5-`
 echo -e "\e[33m | IP            \e[0m:  $IPVPS"
