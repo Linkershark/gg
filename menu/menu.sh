@@ -1,4 +1,4 @@
-#!/bin/bashLinkershark
+#!/bin/bash
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo "Checking VPS"
 #########################
@@ -106,7 +106,7 @@ echo -e "\e[33m CITY          \e[0m:  $CITY"
 echo -e "\e[33m DOMAIN        \e[0m:  $domain"	
 echo -e "\e[33m DATE & TIME   \e[0m:  $DATE2"	
 echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "
+echo -e "\e[33m STATUS  NGINX : $status_nginx   XRAY : $status_xray        \033[0m"
 echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "                 • SCRIPT MENU •                 "
 echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
