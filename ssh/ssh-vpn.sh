@@ -256,9 +256,25 @@ echo 'Please send in your comments and/or suggestions to zaf@vsnl.com'
 echo "Banner /etc/issue.net" >> /etc/ssh/sshd_config
 sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dropbear
 cat> /etc/issue.net << END
+<p style="text-align:center">
 
+<font color="cyan"><b>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</br></font><br>
+<font color="red"><b>SERVER BY SHINEVPN STORE</b></font><br>
+<font color="cyan"><b>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</br></font><br>
+=========RULES=========<br>
+<br>
+• Jangan digunakan untuk kegiatan illegal<br>
+• Jangan Over downloading<br>
+• Jangan lupa order banh :v <br>
 
-
+<font color="cyan"><b>━━━━━━━━━━━━━━━━━━━━━━━━━</br></font><br>
+<font color="red"><b>Contact: </b></font><br>
+<br>
+<font color="red"><b>Telegram   : https://t.me/ShineStores</b></font><br>
+<font color="red"><b>Whatsapp   : https://wa.me/+6282190464598</b></font><br>
+<br>
+<font color="red"><b>Testimoni  : https://t.me/Shyneest</b></font><br>
+<font color="cyan"><b>━━━━━━━━━━━━━━━━━━━━━━━━━</br></font><br>
 END
 
 #install bbr dan optimasi kernel
