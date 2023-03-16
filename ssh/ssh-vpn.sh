@@ -252,6 +252,15 @@ echo; echo 'Installation has completed.'
 echo 'Config file is at /usr/local/ddos/ddos.conf'
 echo 'Please send in your comments and/or suggestions to zaf@vsnl.com'
 
+
+echo "Banner /etc/issue.net" >> /etc/ssh/sshd_config
+sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dropbear
+cat> /etc/issue.net << END
+
+
+
+END
+
 #install bbr dan optimasi kernel
 #wget https://raw.githubusercontent.com/nanotechid/supreme/aio/ssh/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 
