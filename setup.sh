@@ -199,10 +199,10 @@ wget https://raw.githubusercontent.com/Linkershark/gg/aio/xray/ins-xray.sh && ch
 wget https://raw.githubusercontent.com/Linkershark/gg/aio/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 
-echo "-----Install Adblock------"
-sleep 0.5
-clear
-rm -rf /usr/local/sbin/helium && wget -q -O /usr/local/sbin/helium https://raw.githubusercontent.com/abidarwish/helium/main/helium.sh && chmod +x /usr/local/sbin/helium && helium
+#echo "-----Install Adblock------"
+#sleep 0.5
+#clear
+#rm -rf /usr/local/sbin/helium && wget -q -O /usr/local/sbin/helium https://raw.githubusercontent.com/abidarwish/helium/main/helium.sh && chmod +x /usr/local/sbin/helium && helium
 clear
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
